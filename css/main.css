@@ -1,0 +1,226 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;	
+	font-family: sabonroman, "Times New Roman", Georgia, Serif;
+	font-size: 15px;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.wrapper {
+	padding: 3%;
+	padding-left: 18%;
+	padding-right:18%;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+}
+
+
+.topwrapperleft {
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
+.topwrapperright {
+	width: 540px;
+	height: auto;
+	float: left;
+}
+
+	
+.bottomwrapper {
+	position: fixed;
+	bottom: 26px;
+	height: auto;
+	width: 500px;
+	float: left;
+	/*background-color: orange;*/
+}
+
+.bottomwrapperleft {
+	width: 250px;
+	float: left;
+}
+
+.bottomwrapperright {
+	width: 250px;
+	float: right;
+}
+
+
+.inline {
+	display: inline-block;
+
+}
+
+
+
+
+.follow {
+	/*background-color: lime;*/
+	width: 70px;
+	height: 26px;
+	position: fixed;
+	bottom: 26px;
+	right: 260px;
+}
+
+.facebook {
+	width: 11.5px;
+	height: 24.5px;
+	float: left;
+}
+
+.twitter {
+	width: 30px;
+	height: 24.5px;
+	float: right;
+}
+
+
+
+
+.columntitle {
+	float: left;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+
+.column1 {
+	width: 240px;
+	line-height: 24px;
+	float: left;
+}
+
+.column2 {
+	width: 180px;
+	line-height: 24px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+/*  PARTY LOGO  */
+
+
+.imgwrapper {
+	width: 943px;
+	height: 280px;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin: auto;
+	z-index: -5000;
+}
+
+.mask_party {
+	width: 100%;
+	height: auto;
+	-webkit-mask: url(../img/logo.svg) no-repeat center center / contain;
+	display: block;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+
+
+
+
+/*  TEXT STYLES  */
+
+
+.links a {
+	display: inline;
+	text-decoration: none;
+	color: gray;
+}
+
+.links a:hover {
+	border-bottom: 1px solid; 
+	cursor: pointer;
+}
+
+.text {
+	color: gray;
+	font-family: sabonitalic;
+	font-style: italic;
+}
+
+.text a {
+	color: gray;
+	text-decoration: none;
+
+}
+
+.bold {
+	font-family: sabonbold;
+	font-style: bold;
+}
+
+
+
+
+
+/*  LOAD FONTS  */
+
+
+
+
+@font-face {
+  font-family: 'sabonroman';
+  src: url('SabonLTStd-Roman.eot'); /* IE9 Compat Modes */
+  src: url('SabonLTStd-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SabonLTStd-Roman.woff') format('woff'), /* Modern Browsers */
+       url('SabonLTStd-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SabonLTStd-Roman.svg#59d15594ba56e08ed9074d156572c263') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+@font-face {
+  font-family: 'sabonitalic';
+  src: url('SabonLTStd-Italic.eot'); /* IE9 Compat Modes */
+  src: url('SabonLTStd-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SabonLTStd-Italic.woff') format('woff'), /* Modern Browsers */
+       url('SabonLTStd-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SabonLTStd-Italic.svg#65e22b9ff987985f5952bc77b8b46d72') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+
+@font-face {
+  font-family: 'sabonbold';
+  src: url('SabonLTStd-Bold.eot'); /* IE9 Compat Modes */
+  src: url('SabonLTStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SabonLTStd-Bold.woff') format('woff'), /* Modern Browsers */
+       url('SabonLTStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SabonLTStd-Bold.svg#70ee491c7f6360e9684699aa507e5d7d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+
+
+
